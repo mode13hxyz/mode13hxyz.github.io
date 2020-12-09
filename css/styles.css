@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Perfect DOS VGA 437 Win';
+    src: url('fonts/PerfectDOSVGA437Win.eot');
+    src: url('fonts/PerfectDOSVGA437Win.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PerfectDOSVGA437Win.woff2') format('woff2'),
+        url('fonts/PerfectDOSVGA437Win.woff') format('woff'),
+        url('fonts/PerfectDOSVGA437Win.svg#PerfectDOSVGA437Win') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.console {
+    font-family: 'Perfect DOS VGA 437 Win';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16pt;
+    }
+
+.console.amber {
+    color: #ffb000;
+    }
+.console.green {
+    color: #33ff33;
+    }
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    }
+
+a {
+    color: #44ff44;
+    }
+a:hover {
+    color: #ffc010;
+    }
